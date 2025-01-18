@@ -20,7 +20,5 @@ Aquí comparto mis apuntes y algoritmos que me han ayudado a la hora de particip
 - **Punto 3:** Descripción breve del tercer punto.
 
 ## ⚙️ Instrucciones para compilar 🙀
-
-1. Clona el repositorio con el siguiente comando:
    ```bash
    g++ archivo.cpp -o archivo
