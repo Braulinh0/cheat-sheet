@@ -22,5 +22,5 @@ Aquí comparto mis apuntes y algoritmos que me han ayudado a la hora de particip
 ## ⚙️ Instrucciones para compilar 🙀
 
 1. Clona el repositorio con el siguiente comando:
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   ```bash g++ 
+   
