@@ -2,5 +2,5 @@
 Enjoy my humble notes 
 
 <p align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiendanimal.es%2Farticulos%2Fcomo-tener-gatos-mas-felices%2F&psig=AOvVaw3Lyd_Tegt4oRDctpvdeXeE&ust=1737252249062000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCe8oqX_ooDFQAAAAAdAAAAABAP" alt="Cat" />
+  <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2014/05/%C2%BFC%C3%B3mo-tener-gatos-m%C3%A1s-felices_-1200x900.jpg" alt="Cat" />
 </p>
