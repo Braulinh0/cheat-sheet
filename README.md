@@ -2,8 +2,6 @@
 
 ¡Hola! Este es un pequeño repositorio donde comparto algunos de mis proyectos. Espero que te diviertas navegando por él.
 
-## 📸 Imagen de bienvenida
-
 <p align="center">
   <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2014/05/%C2%BFC%C3%B3mo-tener-gatos-m%C3%A1s-felices_-1200x900.jpg" alt="Gato feliz" width="550" height="350" />
 </p>
