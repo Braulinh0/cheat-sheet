@@ -23,4 +23,4 @@ Aquí comparto mis apuntes y algoritmos que me han ayudado a la hora de particip
 
 1. Clona el repositorio con el siguiente comando:
    ```bash
-   git g++ archivo.cpp -o archivo
+    g++ archivo.cpp -o archivo
