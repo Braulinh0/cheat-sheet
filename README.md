@@ -1,4 +1,4 @@
-# 🐱 Bienvenido a mi humilde repositorio 🤓
+# 🐱 Welcome to my humble repository 🤓
 
 Hello! This is a small repository where I share some of my notes which have helped me in competitive programming. I hope they are of some use to you 😽.
 
