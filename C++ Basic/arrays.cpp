@@ -129,5 +129,115 @@ int main() {
     pal.pop_back(); // Quitamos la última palabra => ":D"
     // Finalmente el valor del arreglo es 6
 
+    // ------------------------------------------------------------
+
+    // String
+
+    // Declaración de un string
+    string cadena;
+
+    // Lectura de un string (sin espacios)
+    cin >> cadena;
+
+    // Lectura de un string (con espacios)
+    getline(cin, cadena);
+
+    // Ignorar salto de línea de problemas de lectura 
+    // (si se pierde una linea con getline)
+    cin.ignore();
+
+    // Substring de un string
+    string frase = "Hola soy fan del pepe";
+    string salida = frase.substr(0, 4); // Hola
+
+    // Encontrar un string dentro de otro string
+    string frase_2 = "Hola soy un frase con dos Hola";
+
+    int posicion1 = frase_2.find("Hola");
+    // Esta en la posición 0
+
+    int posicion2 = frase_2.find("Hola", posicion1 + 1);
+    // Hola esta en la posición 33
+    // Pd: Find devuelve -1 si no se encuentra la palabra
+
+    // ------------------------------------------------------------
+
+    // Set
+
+    // Creación de un set
+    set<int> numeros_2;
+    set<string> palabra;
+
+    // Agregar elementos al set
+    int numero_2 = 17;
+    string nombres = "Pepe";
+    numeros_2.insert(numero_2);
+    palabra.insert(nombres);
+
+    // Para iterar sobre todos los elementos del set usaremos auto it, el que podemos agregar directamente en el ciclo
+    set<int> set_num;
+    int t;
+    cin >> t;
+    
+    while(t--) {
+        int dato;
+        cin >> dato; // Leemos datos
+
+        set_num.insert(dato); // Almacenamos los datos
+    }
+
+    /// Iteramos sobre todos los elementos del set
+    for(auto it = set_num.begin(); it != set_num.end(); it++) {
+        cout << (*it) << " ";
+    }
+    // Se imprimen los números de menor a mayor
+    // Y no se guardan los repetidos. Ojo, con el *
+    // Con entrada N = 10 y números 9 8 7 6 9 8 7 6 9 8
+    // Se imprime 6 7 8 9
+    cout << endl;
+
+    // ------------------------------------------------------------
+
+    // Map
+
+    // Creación de un map
+    map<string, double> promedios; // Mapa de string, double
+    map<int, int> codigos; // Mapa de enteros
+
+    // Agregar elementos al map
+    codigos[10] = 20;
+    codigos[234] = 30;
+    promedios["Juan"] = 7.0;
+    promedios["Lucia"] = 5.7;
+
+    // Consultar el tamaño del map
+    int tam1 = promedios.size();
+    int tam2 = codigos.size();
+
+    // Importante, como el map tiene dos elementos (clave, valor), si queremos
+    // Acceder a la clave, imprimimos con .first y si queremos acceder al valor,
+    // Imprimimos con .second
+
+    // Limpiar datos del map (borrar todo)
+    promedios.clear();
+
+    // ------------------------------------------------------------
+
+    // Pair
+
+    // Creación de un pair
+    pair<int, int> coordenadas;
+    pair<string, int> edades;
+
+    // Agregar elementos al pair
+    coordenadas = make_pair(0, 0);
+    edades = make_pair("Ignacio", 43);
+
+    // Imprime 0, 0
+    cout << coordenadas.first << "," << coordenadas.second << endl;
+
+    // Imprime Ignacio,43
+    cout << edades.first << "," << edades.second << endl;
+    
     return 0;
 }
