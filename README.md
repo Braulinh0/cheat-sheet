@@ -19,8 +19,8 @@ Aquí comparto mis apuntes y algoritmos que me han ayudado a la hora de particip
 - **Punto 2:** La segunda carpeta contiene algoritmos intermedios de C++
 - **Punto 3:** Descripción breve del tercer punto.
 
-## ⚙️ Instrucciones para ejecutar el proyecto
+## ⚙️ Instrucciones para compilar 🙀
 
 1. Clona el repositorio con el siguiente comando:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+  g++ archivo.cpp -o archivo
