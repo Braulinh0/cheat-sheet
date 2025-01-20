@@ -17,7 +17,7 @@ Here I share my notes and algorithms by folder, which have helped me when partic
   - Math. ➕
   - Etc.
 - **Point 2:** The second folder contains intermediate C++ algorithms
-  - Dynamic programming (DP). 🔃
+  - Dynamic programming (DP). 🔄
   - Graph algorithms. 🔢
   - Mathematics algorithms. 0️⃣
   - Binary search. 😥
