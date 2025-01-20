@@ -11,12 +11,17 @@ Hello! This is a small repository where I share some of my notes which have help
 Here I share my notes and algorithms by folder, which have helped me when participating in the OCI. You can check the details of each of them below:
 
 - **Point 1:** The first folder contains basic C++ algorithms
-  -Template. 📃
+  - Template. 📃
   - Cycles. 🔁
   - Operators. 🔢
   - Math. ➕
   - Etc.
 - **Point 2:** The second folder contains intermediate C++ algorithms
+  - Dynamic programming (DP). 🔃
+  - Graph algorithms. 🔢
+  - Mathematics algorithms. 0️⃣
+  - Binary search. 😥
+  - Etc.
 - **Point 3:** Brief description of the third point.
 
 ## ⚙️ Instructions for compiling 🙀
