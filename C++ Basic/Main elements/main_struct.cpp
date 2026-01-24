@@ -11,8 +11,9 @@ int main() {
     cout.setf(ios::fixed);
     cout.precision(10);
 
-    
+    // code
 
     return 0;
 
 }
+
