@@ -27,19 +27,21 @@ Here I share my notes and algorithms by folder, which have helped me when partic
 ## ⚙️ Instructions for compiling 🙀
    ```bash
    g++ archivo.cpp -o archivo
+   ```
 
 ## ⚙️ Basic template for competitive C++
 
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-
-int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-
-    // code
-
-    return 0;
-}
+   ```cpp
+   #include <bits/stdc++.h>
+   using namespace std;
+   #define ll long long
+  
+   int main() {
+       ios::sync_with_stdio(0);
+       cin.tie(0);
+  
+       // code
+  
+       return 0;
+   }
+   ```
