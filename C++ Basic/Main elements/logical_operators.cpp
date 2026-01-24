@@ -14,59 +14,60 @@ int main() {
     int a, b;
     cin >> a >> b;
 
-    // == es de igualdad
+    // ( == ) <- It is about equality.
     if(a == 2) {
-        cout << "A es igual a 2" << endl;
+        cout << "A equals 2" << endl;
     } else {
-        cout << "A es diferente de 2" << endl;
+        cout << "A is different from 2" << endl;
     }
 
-    // != es de desigualdad
+    // ( != ) <- It is about inequality.
     if(b != 2) {
-        cout << "B es diferente de 2" << endl;
+        cout << "B is different from 2" << endl;
     } else {
-        cout << "B es igual a 2" << endl;
+        cout << "B equals 2" << endl;
     }
 
-    // && (And) Verdadero si todas las condiciones son verdaderas
+    // && (And) <- True if all conditions are met.
     if(a > 0 && a < 10) {
-        cout << "A esta entre 0 y 10" << endl;
+        cout << "This is between 0 and 10" << endl;
     } else {
-        cout << "A esta sobre 10" << endl;
+        cout << "This one out of 10" << endl;
     }
 
-    // || (Or) Basta que una condición sea verdadera para que todo sea verdadero
+    // || (Or) <- If one condition is true, then everything is true.
     if(b == 0 || b == 1) {
-        cout << "B es igual a 0 o 1" << endl;
+        cout << "B equals 0 or 1" << endl;
     } else {
-        cout << "B es diferente de 0 o 1" << endl;
+        cout << "B is different from 0 or 1" << endl;
     }
 
-    // Existen los comparadores
-    // <, menor que
-    // >, mayor que
-    // <=, menor o igual que
-    // >=, mayor o igual que
+    // Comparators exist
+    // <, less than
+    // >, greater than
+    // <=, less than or equal to
+    // >=, greater than or equal to
+    
+    // Example of how to implement this
 
-    // Ejemplo de cómo implementar esto
-
-    bool esPrimo = true;
+    bool isCousin = true;
     int n = 2;
 
-    // el ciclo se ejecuta mientras que i sea menor que n
+    // the loop executes while i is less than n
     for(int i = 2; i < n; i++) {
-        // si el resto de n modulo i es igual a 0 entonces, primo es falso
+        // if the remainder of n modulo i is equal to 0 then, prime is false
         if(n % i == 0) {
-            esPrimo = false;
+            isCousin = false;
         }
     }
 
-    // si primo es verdadero
-    if(esPrimo == true) {
-        cout << "Número primo" << endl;
-    } else { // si primo es falso
-        cout << "Número no primo" << endl;
+    // if prime is true
+    if(isCousin == true) {
+        cout << "Prime number" << endl;
+    } else { // if prime is false
+        cout << "Non-prime number" << endl;
     }
 
     return 0;
+
 }
