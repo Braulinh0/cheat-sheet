@@ -29,8 +29,7 @@ Here I share my notes and algorithms by folder, which have helped me when partic
    g++ archivo.cpp -o archivo
    ```
 
-## ⚙️ Basic template for competitive C++
-
+## ⚙️ Basic template for competitive C++ (for beginners, I suppose...)
    ```cpp
    #include <bits/stdc++.h>
    using namespace std;
